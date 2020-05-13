@@ -1,14 +1,6 @@
-```
----
-published: true
-layout: single
 title: "MOVING BOUNDARY WORK"
 category: post
 tags: Thermal
-comments: true
-use_math: true
----
-```
 
 # 4-1 MOVING BOUNDARY WORK
 
@@ -50,7 +42,7 @@ $$
 $$
 P=f(V) \text{가 명확해야 이를 계산해 낼 수 있다.}
 $$
-<img src="[https://res.cloudinary.com/dbzvbzksw/image/upload/v1589343843/200513posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_1_glq30i.jpg](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589343843/200513posting/이미지_1_glq30i.jpg)">
+![그림1](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589343843/200513posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_1_glq30i.jpg)
 
 위 그림을 보면 1->2로 상태가 변할 때 P는 미소 V를 변할 때 곡선형태로 변하고 이를 수식적으로 계산하기 위해서는 x축과 y축의 함수관계가 드러나야 한다. 그렇다면 분홍색 영역의 dA가 미소일이 된다.
 $$
@@ -60,7 +52,7 @@ P-V 다이어그램안에서 미소일을 모두 적분하면 위 그림에서�
 
 ### 경로함수로서의 일
 
-<img src=[https://res.cloudinary.com/dbzvbzksw/image/upload/v1589343844/200513posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_2_bzgjjj.jpg](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589343844/200513posting/이미지_2_bzgjjj.jpg)>
+![그림2](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589343844/200513posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_2_bzgjjj.jpg)
 
 우리는 위에서 일의 경로를 알기 위해 ***quasi-equilibrium process***이라는 전제를  하였다. 위의 A,B,C 곡선은 모두 4-2에서 정의한 바에 의하면 일이 모두 다르다. 그리고 이 일의 크기는 1->2로 이동할 때 어떻게 이동했냐에 의존한다. 만일 path function이 아니었다면 일을 생성해내는 cyclic device가 생성되지 못했을 것이다. 시작점에서 끝점으로 돌아오는 일련의 행위를 Cycle이라 하는데 적분의 성질에 의해위 그림은 에너지를 소모하고 에너지를 얻는다. 이 얻은 에너지양과 소모한 에너지 양의 차를 net work라 하고 사이클 경로상의 내부 넓이가 된다.
 
