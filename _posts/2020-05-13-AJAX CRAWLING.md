@@ -37,7 +37,7 @@ driver.quit()
 
 또한 셀레니움은 버튼클릭기능이 구현되어있어 굉장히 편하게 로그인 프로그램을 만들 수 있다.
 
-```python     alert = driver.switch_to.alert
+```python
 alert = driver.switch_to.alert
 alert.accept()
 ```
