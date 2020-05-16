@@ -8,13 +8,13 @@
 
 기계과의 관점에서 본다면 유체기계 설계나, 윤활과 같은 기술은 유체의 특성을 활용했음은 의심의 여지가 없다.
 
-</br>
+<br>
 
 그렇다면 유체의 거동을 어떻게 알 것인가? 이는 유체를 분석해야 하고 이러한 분석 기법에는 또 다시 두가지로 나뉘게된다.
 
 오늘 우리가 알아볼 것은 이런 유체의 거동을 보는 방법론 두가지 이다.
 
-</br>
+<br>
 
 ### Lagrangian description
 
@@ -26,11 +26,11 @@
 
 ![https://res.cloudinary.com/dbzvbzksw/image/upload/v1589622928/0516posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_2_ejrlut.png](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589622928/0516posting/이미지_2_ejrlut.png)
 
-라그랑지안 그림자료 [1] [링크](https://youtu.be/iDIzLkic1pY) 
+<u>*<그림1>라그랑지안 그림자료 [1] [링크](https://youtu.be/iDIzLkic1pY)*</u> 
 
 다음과 같이 한 입자를 시간 t에 따라 찍은 걸 합쳐 놓은 것이다. 즉 한놈만 패는 것이다.
 
-우리는 보통 고체는 이런식으로 해석한다. 그 유명한 뉴턴 2법칙이 존재하기 때문이다.ㄹ
+우리는 보통 고체는 이런식으로 해석한다. 그 유명한 뉴턴 2법칙이 존재하기 때문이다.
 
 F=ma로 해석하려면 m이 이러한 하나의 입자여야한다.
 
@@ -62,7 +62,7 @@ fluid는 입자로 구성되어있고 얘네들은 모여서 유체가 된다. �
 
 ![https://res.cloudinary.com/dbzvbzksw/image/upload/v1589622928/0516posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_4_hfl3lz.jpg](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589622928/0516posting/이미지_4_hfl3lz.jpg)
 
-오일러리안 그림자료 [1] [링크](https://youtu.be/iDIzLkic1pY) 
+<u>*<그림2>오일러리안 그림자료 [1] [링크](https://youtu.be/iDIzLkic1pY)*</u> 
 
 이는 어떤 control volume을 설정해두고 이 영역에 대한 사진을 찍는것이다.
 
