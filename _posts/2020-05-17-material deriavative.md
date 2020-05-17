@@ -16,50 +16,80 @@
 이를 입자의 방정식으로 나타낼 수 있고, 약간의 수학적 변형을 통해 오일러리안 기법으로 바꿀 수 있다.
 
 우선 입자의 position vector를 정의하면 
+
+<br/>
 $$
 s(x,y,z,t)=[x_{particle}(t),y_{particle}(t),z_{particle}(t)]
 $$
 <br>
 
+<br/>
+
 처음 시작은 뉴턴 2법칙으로 부터 시작한다.
 
 <br>
+
+<br/>
 $$
 \vec F_{particle}=m_{particle}\vec a_{particle}
 $$
 <br>
 
+<br/>
+
 항을 이항하면
+
+<br>
+
+<br/>
 $$
 \vec a_{particle}=\frac{\vec {F}_{particle}}{m_{particle}}
 $$
 <br>
+
+<br/>
 $$
 \vec a_{particle}=\frac{d\vec {V}_{particle}}{dt} \quad (1)
 $$
 <br>
 
+<br/>
+
 속도벡터는 다음과 같이 정의된다.
 
-<br>
+<br><br/>
 $$
 \vec V_{particle}=\vec V(x_{particle}(t),y_{particle}(t),z_{particle}(t),t) \quad (2)
 $$
 <br>
 
+<br/>
+
 (1)식을 (2)식에 적용하여 풀어야한다.
 
 이때 편미분 개념이 들어가는데 이는 추후에 **전미분 포스팅을 통해서 수학 내용을 추가하겠다.**[1]
+
+<br/>
 $$
 d\vec V=\frac{\partial \vec V}{\partial x}dx+\frac{\partial \vec V}{\partial y}dy+\frac{\partial \vec V}{\partial z}dz+\frac{\partial \vec V}{\partial t}dt
 $$
-그러므로 <br>
+<br>
+
+그러므로 
+
+<br/>
 $$
 \frac{d\vec {V}_{particle}}{dt} =\frac{\partial \vec V}{\partial x}\frac{dx}{dt}+\frac{\partial \vec V}{\partial y}\frac{dy}{dt}+\frac{\partial \vec V}{\partial z}\frac{dz}{dt}+\frac{\partial \vec V}{\partial t}\frac{dt}{dt}
 $$
+<br>
+
+<br/>
+
 여기서 x성분의 속도를 u, y성분의 속도를 v, z성분의 속도를 w, dt/dt=1이라하면
 
 <br>
+
+<br/>
 $$
 \vec a_{particle}=\frac{d\vec {V}_{particle}}{dt} =\frac{\partial \vec V}{\partial t}+u\frac{\partial \vec V}{\partial x}+v\frac{\partial \vec V}{\partial y}+w\frac{\partial \vec V}{\partial z}
 $$
@@ -85,9 +115,9 @@ $$
 $$
 \frac{d\vec {V}_{particle}}{dt} =\frac{\partial \vec V}{\partial t}+(\nabla \cdot\vec V)\vec V             \quad (3)
 $$
-<br> 위 식을 정확히 이해하기 위해서는 **아인슈타인 컨벤션에 대한 논의가 있어야 하고 그것도 추후 포스팅이 필요해 보인다.** 
+<br><br> 위 식을 정확히 이해하기 위해서는 **아인슈타인 컨벤션에 대한 논의가 있어야 하고 그것도 추후 포스팅이 필요해 보인다.** 
 
-이를 Cartesian coordinates 로 전개하면
+이를 Cartesian coordinates 로 전개하면<br>
 $$
 a_x=\frac{\partial  u}{\partial t}+u\frac{\partial u}{\partial x}+v\frac{\partial u}{\partial y}+w\frac{\partial u}{\partial z}
 $$
