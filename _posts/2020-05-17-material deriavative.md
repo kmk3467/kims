@@ -21,33 +21,19 @@
 $$
 s(x,y,z,t)=[x_{particle}(t),y_{particle}(t),z_{particle}(t)]
 $$
-<br>
-
-<br/>
-
 처음 시작은 뉴턴 2법칙으로 부터 시작한다.
 
 <br>
-
-<br/>
 $$
 \vec F_{particle}=m_{particle}\vec a_{particle}
 $$
-<br>
-
-<br/>
-
 항을 이항하면
 
-<br>
 
-<br/>
 $$
 \vec a_{particle}=\frac{\vec {F}_{particle}}{m_{particle}}
 $$
-<br>
 
-<br/>
 $$
 \vec a_{particle}=\frac{d\vec {V}_{particle}}{dt} \quad (1)
 $$
@@ -57,12 +43,10 @@ $$
 
 속도벡터는 다음과 같이 정의된다.
 
-<br><br/>
+<br/>
 $$
 \vec V_{particle}=\vec V(x_{particle}(t),y_{particle}(t),z_{particle}(t),t) \quad (2)
 $$
-<br>
-
 <br/>
 
 (1)식을 (2)식에 적용하여 풀어야한다.
@@ -73,7 +57,7 @@ $$
 $$
 d\vec V=\frac{\partial \vec V}{\partial x}dx+\frac{\partial \vec V}{\partial y}dy+\frac{\partial \vec V}{\partial z}dz+\frac{\partial \vec V}{\partial t}dt
 $$
-<br>
+<br/>
 
 그러므로 
 
@@ -81,15 +65,8 @@ $$
 $$
 \frac{d\vec {V}_{particle}}{dt} =\frac{\partial \vec V}{\partial x}\frac{dx}{dt}+\frac{\partial \vec V}{\partial y}\frac{dy}{dt}+\frac{\partial \vec V}{\partial z}\frac{dz}{dt}+\frac{\partial \vec V}{\partial t}\frac{dt}{dt}
 $$
-<br>
-
-<br/>
-
 여기서 x성분의 속도를 u, y성분의 속도를 v, z성분의 속도를 w, dt/dt=1이라하면
 
-<br>
-
-<br/>
 $$
 \vec a_{particle}=\frac{d\vec {V}_{particle}}{dt} =\frac{\partial \vec V}{\partial t}+u\frac{\partial \vec V}{\partial x}+v\frac{\partial \vec V}{\partial y}+w\frac{\partial \vec V}{\partial z}
 $$
@@ -117,15 +94,13 @@ $$
 $$
 <br><br> 위 식을 정확히 이해하기 위해서는 **아인슈타인 컨벤션에 대한 논의가 있어야 하고 그것도 추후 포스팅이 필요해 보인다.** 
 
-이를 Cartesian coordinates 로 전개하면<br>
+이를 Cartesian coordinates 로 전개하면<br/>
 $$
 a_x=\frac{\partial  u}{\partial t}+u\frac{\partial u}{\partial x}+v\frac{\partial u}{\partial y}+w\frac{\partial u}{\partial z}
 $$
-<br>
 $$
 a_y=\frac{\partial  v}{\partial t}+u\frac{\partial v}{\partial x}+v\frac{\partial v}{\partial y}+w\frac{\partial v}{\partial z}
 $$
-<br>
 $$
 a_z=\frac{\partial  w}{\partial t}+u\frac{\partial w}{\partial x}+v\frac{\partial w}{\partial y}+w\frac{\partial w}{\partial z}
 $$
@@ -147,12 +122,14 @@ $$
 
 특별한 표기법 D/Dt 로 표기하며 이는 다음과 같다
 
-<br>
+<br/>
 $$
 \frac{D}{Dt}=\frac{d}{dt}=\frac{\partial}{\partial t}+(\vec V \cdot\vec \nabla)
 $$
 
-- 벡터표현
+<br>
+
+- 벡터표현<br/>
   $$
   \frac{D\vec V}{Dt}=\frac{d\vec V}{dt}=\frac{\partial \vec V}{\partial t}+(\vec V \cdot\vec \nabla)\vec V
   $$
