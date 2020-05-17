@@ -90,6 +90,11 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+#collection
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Author
 author:
