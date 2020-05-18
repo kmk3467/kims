@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
 ### 레퍼런스
 
-[1]: https://sjquant.tistory.com/14?category=797018 파이썬과 비동기 프로그래밍
+[1] https://sjquant.tistory.com/14?category=797018 파이썬과 비동기 프로그래밍
 
-[2]: https://dojang.io/mod/page/view.php?id=2469 파이썬 코딩도장
+[2] https://dojang.io/mod/page/view.php?id=2469 파이썬 코딩도장
 
