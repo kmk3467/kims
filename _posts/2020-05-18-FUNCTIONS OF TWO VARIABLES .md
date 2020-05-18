@@ -43,33 +43,48 @@ x,y는 독립적으로 결정되고 이에 따라 z는 결정된다.
 
 **예제4)**
 $$
-g=\sqrt{9-x^2-y^2} 
+g=\sqrt{9-x^2-y^2}
 $$
+
+
 위 식의 정의역과 치역을 찾아라.
+
 
 
 $$
 D=\{(x,y)\mid x^2+y^2\le9\}
 $$
+
+
 이때 D의 기하학적 모양은 다음과 같은 원이다.
 
 ![https://res.cloudinary.com/dbzvbzksw/image/upload/v1589782864/0518posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_d24_da1fo3.png](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589782864/0518posting/이미지_d24_da1fo3.png)
+
+
 $$
 \{z\mid z=\sqrt{9-x^2-y^2}\}
 $$
+
 
 $$
 z\ge0 \ 이므로 \ 9-x^2-y^2\ge0
 $$
 
 또한 정의역에 의해 $x^2+y^2\ge 0$ 이어야 하므로
+
+
 $$
 9\ge 9-x^2-y^2
 $$
+
+
 그러므로 위 두 경우를 조합하면
+
+
 $$
 \{z\mid 0 \le z \le 3 \} = [0,3]
 $$
+
 
 
 ### 그래프
@@ -86,7 +101,11 @@ f의 개형은 두변수함수에서 z가 x,y에 의해 결정나므로 이는 f
 
 그림으로 나타내면 다음과 같다.
 
+
+
 ![https://res.cloudinary.com/dbzvbzksw/image/upload/v1589782216/0518posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_23_pde9dq.png](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589782216/0518posting/이미지_23_pde9dq.png)
+
+
 
 
 
@@ -104,7 +123,11 @@ f(x,y)=z 라하면 z=6-3x-2y
 
 이를 서로 연결해주면 3차원 그래프가 그려진다.
 
+
+
 ![https://res.cloudinary.com/dbzvbzksw/image/upload/v1589782216/0518posting/%EC%9D%B4%EB%AF%B8%EC%A7%80_24_rh1bop.png](https://res.cloudinary.com/dbzvbzksw/image/upload/v1589782216/0518posting/이미지_24_rh1bop.png)
+
+
 
 
 
