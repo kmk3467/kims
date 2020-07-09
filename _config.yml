@@ -100,7 +100,7 @@ collections:
 author:
   name             : "Min kyu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "어려움에 도전"
+  bio              : ""
   location         : "ROK"
   email            :
   links:
