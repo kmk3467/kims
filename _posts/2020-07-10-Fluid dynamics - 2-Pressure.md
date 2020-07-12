@@ -118,7 +118,9 @@ $$
 
 
 
---- 직접 그려서 표현하자--
+![https://res.cloudinary.com/dbzvbzksw/image/upload/v1594544320/200712posting/KakaoTalk_20200712_175707280_rtj2hx.jpg](https://res.cloudinary.com/dbzvbzksw/image/upload/v1594544320/200712posting/KakaoTalk_20200712_175707280_rtj2hx.jpg)
+
+
 
 
 
